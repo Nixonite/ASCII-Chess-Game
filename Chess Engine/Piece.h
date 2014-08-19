@@ -42,16 +42,11 @@ public:
         active = mactive;
     }
     
-    bool move(int mx, int my){// return true if success, false if error
+    void move(int mx, int my){// return true if success, false if error
         if(isLegal(mx,my)){
-            x = mx;
-            y = my;
-            return true;
+            x=mx;
+            y=my;
         }
-        else{
-            return false;
-        }
-        
     }
     
     virtual bool isLegal(int mx, int my){

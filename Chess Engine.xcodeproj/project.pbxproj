@@ -25,12 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		73069DCB19A355BB00C9FC38 /* Rook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rook.h; sourceTree = "<group>"; };
 		734A91B519A0893C0068F8D7 /* Chess Engine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Chess Engine"; sourceTree = BUILT_PRODUCTS_DIR; };
 		734A91B819A0893C0068F8D7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		734A91BA19A0893C0068F8D7 /* Chess_Engine.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Chess_Engine.1; sourceTree = "<group>"; };
 		734A91C219A08A970068F8D7 /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
 		734A91C519A08B1C0068F8D7 /* Piece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Piece.h; sourceTree = "<group>"; };
-		734A91C819A08D090068F8D7 /* Rook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rook.h; path = ../Rook.h; sourceTree = "<group>"; };
 		73A491FB19A1A4AE00BB34A8 /* Bishop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bishop.h; sourceTree = "<group>"; };
 		73A491FC19A1A64900BB34A8 /* Queen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queen.h; sourceTree = "<group>"; };
 		73A491FD19A1A85700BB34A8 /* Pawn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pawn.h; sourceTree = "<group>"; };
@@ -70,9 +70,9 @@
 			children = (
 				734A91BA19A0893C0068F8D7 /* Chess_Engine.1 */,
 				734A91B819A0893C0068F8D7 /* main.cpp */,
+				73069DCB19A355BB00C9FC38 /* Rook.h */,
 				734A91C219A08A970068F8D7 /* Board.h */,
 				734A91C519A08B1C0068F8D7 /* Piece.h */,
-				734A91C819A08D090068F8D7 /* Rook.h */,
 				73A491FB19A1A4AE00BB34A8 /* Bishop.h */,
 				73A491FC19A1A64900BB34A8 /* Queen.h */,
 				73A491FD19A1A85700BB34A8 /* Pawn.h */,
