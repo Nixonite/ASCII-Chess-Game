@@ -16,14 +16,12 @@ class Rook: public Piece{
     
 public:
     
-    const char symbol[2] = "R";
-    
     Rook(): Piece(){
-        
+        symbol = "R";
     }
     
     Rook(int x, int y, bool color, bool active) : Piece(x,y,color,active){
-        
+        symbol = "R";
     }
     
     bool isLegal(int mx, int my){// returns true if legal, false if not
@@ -33,10 +31,6 @@ public:
         else{
             return false;
         }
-    }
-    
-    const char* getSymbol(){
-        return symbol;
     }
     
 };

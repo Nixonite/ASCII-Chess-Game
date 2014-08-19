@@ -17,14 +17,12 @@ class Knight: public Piece{
     
 public:
     
-    const char symbol[2] = "N";
-    
     Knight():Piece(){
-        
+        symbol = "N";
     }
     
     Knight(int x, int y, bool color, bool active):Piece(x,y,color,active){
-        
+        symbol = "N";
     }
     
     bool isLegal(int mx, int my){

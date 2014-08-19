@@ -14,15 +14,13 @@
 
 class Bishop: public Piece{
 public:
-    
-    const char symbol[2] = "B";
-    
+
     Bishop():Piece(){
-        
+        symbol = "B";
     }
     
     Bishop(int x, int y, bool color, bool active) : Piece(x, y, color, active){
-        
+        symbol = "B";
     }
     
     bool isLegal(int mx, int my){
@@ -34,10 +32,6 @@ public:
         }
         else return true;
         
-    }
-    
-    const char* getSymbol(){
-        return symbol;
     }
     
     

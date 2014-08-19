@@ -13,9 +13,14 @@ using namespace std;
 
 int main(int argc, const char * argv[])
 {
-    Rook r = Rook();
-    cout<<r.getSymbol() <<r.getX();
+    
+    Board b = Board();
+    
+    cout<<"hi";
+    b.print();
+    b.getMove();
+    b.getMove();
+    
     
     return 0;
 }
-

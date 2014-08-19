@@ -15,15 +15,13 @@
 class Queen: public Piece{
     
 public:
-    
-    const char symbol[2] = "Q";
-    
+
     Queen():Piece(){
-        
+        symbol = "Q";
     }
     
     Queen(int x, int y, bool color, bool active): Piece(x, y, color, active){
-        
+        symbol = "Q";
     }
     
     bool isLegal(int mx, int my){
@@ -38,11 +36,7 @@ public:
         
         
     }
-    
-    const char* getSymbol(){
-        return symbol;
-    }
-    
+
 };
 
 #endif

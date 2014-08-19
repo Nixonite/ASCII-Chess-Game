@@ -16,14 +16,12 @@ class King: public Piece{
     
 public:
     
-    const char symbol[2] = "K";
-    
     King():Piece(){
-        
+        symbol = "K";
     }
     
     King(int x, int y, bool color, bool active) : Piece(x,y,color,active){
-        
+        symbol = "K";
     }
     
     bool isLegal(int mx, int my){
@@ -36,11 +34,7 @@ public:
         }
         else return false;
     }
-    
-    const char* getSymbol(){
-        return symbol;
-    }
-    
+
 };
 
 #endif

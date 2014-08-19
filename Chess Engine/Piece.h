@@ -9,6 +9,8 @@
 #ifndef __Chess_Engine__Piece__
 #define __Chess_Engine__Piece__
 
+#include <string>
+
 class Piece{
     
 protected:
@@ -18,6 +20,7 @@ protected:
     int initY;
     bool active;
     bool color;
+    std::string symbol;
     
 public:
     
@@ -89,6 +92,10 @@ public:
     
     void setActive(bool mactive){
         active = mactive;
+    }
+    
+    std::string getSymbol(){
+        return symbol;
     }
     
 };

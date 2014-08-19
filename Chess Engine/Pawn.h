@@ -15,15 +15,13 @@
 class Pawn: public Piece{
     
 public:
-    
-    const char symbol[2] = "P";
-    
+
     Pawn():Piece(){
-        
+        symbol = "P";
     }
     
     Pawn(int x, int y, bool color, bool active): Piece( x, y, color, active){
-        
+        symbol = "P";
     }
     
     bool isLegal(int mx, int my){
@@ -43,11 +41,7 @@ public:
         else return false;
         
     }
-    
-    const char* getSymbol(){
-        return symbol;
-    }
-    
+
 };
 
 #endif
