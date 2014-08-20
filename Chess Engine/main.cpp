@@ -15,13 +15,11 @@ int main(int argc, const char * argv[])
 {
     
     Board b = Board();
-    b.print();
-    b.movePiece(4,1,4,3);
-    b.print();
-    b.movePiece(4,6,4,4);
-    b.print();
-    b.movePiece(6,0,5,2);
-    b.print();
+    
+    while(1){//test
+        b.print();
+        b.move();
+    }
     
     
     return 0;

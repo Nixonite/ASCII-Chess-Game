@@ -89,6 +89,13 @@ public:
         active = mactive;
     }
     
+    bool positionIsSame(int mx, int my){
+        if(this->x == mx && this->y == my){
+            return true;
+        }
+        else return false;
+    }
+    
     std::string getSymbol(){
         return symbol;
     }

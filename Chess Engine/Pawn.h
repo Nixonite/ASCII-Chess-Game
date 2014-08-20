@@ -26,19 +26,34 @@ public:
     
     bool isLegal(int mx, int my){
         
-        int dx = abs(mx - x);
-        int dy = abs(my - y);
+        int dx = mx - x;
+        int dy = my - y;
         
-        if(dy == 2 && dx == 0){
-            if(x == initX && y == initY){
+        if(color == true){
+            if(dy == 2 && dx == 0){
+                if(x == initX && y == initY){
+                    return true;
+                }
+                else return false;
+            }
+            else if(dy == 1 && dx == 0){
                 return true;
             }
             else return false;
         }
-        else if(dy == 1 && dx == 0){
-            return true;
+        else{
+            if(dy == -2 && dx == 0){
+                if(x == initX && y == initY){
+                    return true;
+                }
+                else return false;
+            }
+            else if(dy == -1 && dx == 0){
+                return true;
+            }
+            else return false;
         }
-        else return false;
+        
         
     }
 
