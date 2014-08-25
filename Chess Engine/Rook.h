@@ -10,6 +10,7 @@
 #define Chess_Engine_Rook_h
 
 #include <iostream>
+#include <vector>
 #include "Piece.h"
 
 class Rook: public Piece{
@@ -24,8 +25,10 @@ public:
         symbol = "R";
     }
     
-    bool isLegal(int mx, int my){// returns true if legal, false if not
+    bool isLegal(int mx, int my, std::vector<Piece> * board){// returns true if legal, false if not
+        
         if( ((x != mx) && (y == my)) || ((x == mx) && (y != my))){
+            
             return true;
         }
         else{
