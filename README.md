@@ -8,3 +8,5 @@ Text color to differentiate white from black
 Detection of pieces in between initial position and destination position for movements i.e. the program doesn't have functionality to check if pieces are in between the movement directions. 
 Castling code
 Check/Checkmate/Stalemate code
+
+Perhaps it's easier to use uppercase letters for white and lowercase letters for black instead of fancy colors. 
